@@ -1,0 +1,38 @@
+.tweet {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+}
+
+.tweet-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tweet-container {
+    height: auto;
+    width: 15rem;
+    background: #899aad;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0 1rem 1rem 1rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tweet-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bolder;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: aqua;
+    margin-left: -1rem;
+    margin-bottom: -1rem;
+    z-index: 1;
+}

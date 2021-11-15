@@ -1,0 +1,22 @@
+.sidebar {
+    height: 100vh;
+    width: 100px;
+    padding-top: 2rem;
+    background: #242220;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar-icon {
+    height: 3rem;
+    width: 3rem;
+    background: white;
+    border: black solid 2px;
+    border-radius: 15%;
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0.1rem 0.15rem black;
+    }
+}

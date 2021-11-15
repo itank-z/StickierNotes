@@ -1,0 +1,19 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.body-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.body-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2rem;
+}
