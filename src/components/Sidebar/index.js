@@ -1,7 +1,6 @@
 import SidebarItem from "../SidebarItem";
-import { FaBeer } from 'react-icons/fa';
 import { BsTwitter } from "react-icons/bs";
-import { MdOutlineStickyNote2 } from "react-icons/md";
+import { MdStickyNote2 } from "react-icons/md";
 import { GiNotebook } from "react-icons/gi";
 import "./style.scss";
 
@@ -13,7 +12,7 @@ export default function Sidebar() {
             </SidebarItem>
 
             <SidebarItem>
-                <MdOutlineStickyNote2 className="sidebar-icon"/>
+                <MdStickyNote2 className="sidebar-icon"/>
             </SidebarItem>
 
             <SidebarItem>

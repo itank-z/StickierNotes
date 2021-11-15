@@ -4,6 +4,7 @@
     padding: 1rem;
     background: antiquewhite;
     border-radius: 1rem;
+    margin-bottom: 2rem;
 }
 
 .tweets-section {
@@ -25,6 +26,39 @@
 }
 
 .tweets-symbol {
+    display: block;
+    margin-left: 0.5rem;
+    padding-top: 0.05rem;
+}
+
+.posts-content-pane {
+    height: auto;
+    width: 90%;
+    padding: 1rem;
+    background: antiquewhite;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.posts-section {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.posts-title {
+    display: inline-flex;
+    width: fit-content;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    background: rgb(209, 208, 139);
+    border-radius: 1rem;
+}
+
+.posts-symbol {
     display: block;
     margin-left: 0.5rem;
     padding-top: 0.05rem;
