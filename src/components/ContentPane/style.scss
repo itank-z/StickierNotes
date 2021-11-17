@@ -63,3 +63,36 @@
     margin-left: 0.5rem;
     padding-top: 0.05rem;
 }
+
+.pages-content-pane {
+    height: auto;
+    width: 90%;
+    padding: 1rem;
+    background: antiquewhite;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.pages-section {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pages-title {
+    display: inline-flex;
+    width: fit-content;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    background: rgb(209, 208, 139);
+    border-radius: 1rem;
+}
+
+.pages-symbol {
+    display: block;
+    margin-left: 0.5rem;
+    padding-top: 0.05rem;
+}

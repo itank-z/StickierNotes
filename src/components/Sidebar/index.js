@@ -1,7 +1,7 @@
 import SidebarItem from "../SidebarItem";
 import { BsTwitter } from "react-icons/bs";
 import { MdStickyNote2 } from "react-icons/md";
-import { GiNotebook } from "react-icons/gi";
+import { RiNewspaperFill } from "react-icons/ri";
 import "./style.scss";
 
 export default function Sidebar() {
@@ -16,7 +16,7 @@ export default function Sidebar() {
             </SidebarItem>
 
             <SidebarItem>
-                <GiNotebook className="sidebar-icon"/>
+                <RiNewspaperFill className="sidebar-icon"/>
             </SidebarItem>
         </div>
     );

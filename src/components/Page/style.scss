@@ -1,27 +1,36 @@
-.tweet {
+.page {
     display: flex;
     flex-direction: column;
     height: fit-content;
     width: fit-content;
 }
 
-.tweet-text {
+.page-title {
+    font-family: monospace;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.page-divider {
+    border-width: 0;
+    border-top: 1.5px solid #555585;
+}
+
+.page-text {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
-.tweet-container {
+.page-container {
     height: auto;
-    width: 15rem;
-    background: #899aad;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 0 1rem 1rem 1rem;
+    width: auto;
     padding: 0.5rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
+    border-radius: 0.3rem 0.3rem 1rem 1rem;
+    background:linear-gradient(#899aad 150px, rgb(0, 0, 0));
 }
 
-.tweet-index {
+.page-index {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +40,7 @@
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
-    background: #50cfcf;
+    background: aqua;
     margin-left: -1rem;
     margin-bottom: -1rem;
     z-index: 1;
